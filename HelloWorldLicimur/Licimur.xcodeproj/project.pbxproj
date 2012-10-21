@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92EC3B42162CCA4800D27B62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EC3B41162CCA4800D27B62 /* UIKit.framework */; };
+		92EC3B44162CCA4800D27B62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EC3B43162CCA4800D27B62 /* Foundation.framework */; };
+		92EC3B46162CCA4800D27B62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EC3B45162CCA4800D27B62 /* CoreGraphics.framework */; };
+		92EC3B4C162CCA4800D27B62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92EC3B4A162CCA4800D27B62 /* InfoPlist.strings */; };
+		92EC3B4E162CCA4800D27B62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EC3B4D162CCA4800D27B62 /* main.m */; };
+		92EC3B52162CCA4800D27B62 /* LCMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EC3B51162CCA4800D27B62 /* LCMAppDelegate.m */; };
+		92EC3B54162CCA4800D27B62 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 92EC3B53162CCA4800D27B62 /* Default.png */; };
+		92EC3B56162CCA4800D27B62 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92EC3B55162CCA4800D27B62 /* Default@2x.png */; };
+		92EC3B58162CCA4800D27B62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92EC3B57162CCA4800D27B62 /* Default-568h@2x.png */; };
+		92EC3B5B162CCA4800D27B62 /* LCMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EC3B5A162CCA4800D27B62 /* LCMViewController.m */; };
+		92EC3B5E162CCA4900D27B62 /* LCMViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92EC3B5C162CCA4900D27B62 /* LCMViewController_iPhone.xib */; };
+		92EC3B61162CCA4900D27B62 /* LCMViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92EC3B5F162CCA4900D27B62 /* LCMViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92EC3B3D162CCA4800D27B62 /* Licimur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Licimur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EC3B41162CCA4800D27B62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		92EC3B43162CCA4800D27B62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92EC3B45162CCA4800D27B62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		92EC3B49162CCA4800D27B62 /* Licimur-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Licimur-Info.plist"; sourceTree = "<group>"; };
+		92EC3B4B162CCA4800D27B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		92EC3B4D162CCA4800D27B62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92EC3B4F162CCA4800D27B62 /* Licimur-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Licimur-Prefix.pch"; sourceTree = "<group>"; };
+		92EC3B50162CCA4800D27B62 /* LCMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCMAppDelegate.h; sourceTree = "<group>"; };
+		92EC3B51162CCA4800D27B62 /* LCMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCMAppDelegate.m; sourceTree = "<group>"; };
+		92EC3B53162CCA4800D27B62 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		92EC3B55162CCA4800D27B62 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		92EC3B57162CCA4800D27B62 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		92EC3B59162CCA4800D27B62 /* LCMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCMViewController.h; sourceTree = "<group>"; };
+		92EC3B5A162CCA4800D27B62 /* LCMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCMViewController.m; sourceTree = "<group>"; };
+		92EC3B5D162CCA4900D27B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCMViewController_iPhone.xib; sourceTree = "<group>"; };
+		92EC3B60162CCA4900D27B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LCMViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92EC3B3A162CCA4800D27B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EC3B42162CCA4800D27B62 /* UIKit.framework in Frameworks */,
+				92EC3B44162CCA4800D27B62 /* Foundation.framework in Frameworks */,
+				92EC3B46162CCA4800D27B62 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92EC3B32162CCA4800D27B62 = {
+			isa = PBXGroup;
+			children = (
+				92EC3B47162CCA4800D27B62 /* Licimur */,
+				92EC3B40162CCA4800D27B62 /* Frameworks */,
+				92EC3B3E162CCA4800D27B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92EC3B3E162CCA4800D27B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92EC3B3D162CCA4800D27B62 /* Licimur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92EC3B40162CCA4800D27B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92EC3B41162CCA4800D27B62 /* UIKit.framework */,
+				92EC3B43162CCA4800D27B62 /* Foundation.framework */,
+				92EC3B45162CCA4800D27B62 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92EC3B47162CCA4800D27B62 /* Licimur */ = {
+			isa = PBXGroup;
+			children = (
+				92EC3B50162CCA4800D27B62 /* LCMAppDelegate.h */,
+				92EC3B51162CCA4800D27B62 /* LCMAppDelegate.m */,
+				92EC3B59162CCA4800D27B62 /* LCMViewController.h */,
+				92EC3B5A162CCA4800D27B62 /* LCMViewController.m */,
+				92EC3B5C162CCA4900D27B62 /* LCMViewController_iPhone.xib */,
+				92EC3B5F162CCA4900D27B62 /* LCMViewController_iPad.xib */,
+				92EC3B48162CCA4800D27B62 /* Supporting Files */,
+			);
+			path = Licimur;
+			sourceTree = "<group>";
+		};
+		92EC3B48162CCA4800D27B62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92EC3B49162CCA4800D27B62 /* Licimur-Info.plist */,
+				92EC3B4A162CCA4800D27B62 /* InfoPlist.strings */,
+				92EC3B4D162CCA4800D27B62 /* main.m */,
+				92EC3B4F162CCA4800D27B62 /* Licimur-Prefix.pch */,
+				92EC3B53162CCA4800D27B62 /* Default.png */,
+				92EC3B55162CCA4800D27B62 /* Default@2x.png */,
+				92EC3B57162CCA4800D27B62 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92EC3B3C162CCA4800D27B62 /* Licimur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92EC3B64162CCA4900D27B62 /* Build configuration list for PBXNativeTarget "Licimur" */;
+			buildPhases = (
+				92EC3B39162CCA4800D27B62 /* Sources */,
+				92EC3B3A162CCA4800D27B62 /* Frameworks */,
+				92EC3B3B162CCA4800D27B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Licimur;
+			productName = Licimur;
+			productReference = 92EC3B3D162CCA4800D27B62 /* Licimur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92EC3B34162CCA4800D27B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LCM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ivo Sluganovic";
+			};
+			buildConfigurationList = 92EC3B37162CCA4800D27B62 /* Build configuration list for PBXProject "Licimur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92EC3B32162CCA4800D27B62;
+			productRefGroup = 92EC3B3E162CCA4800D27B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92EC3B3C162CCA4800D27B62 /* Licimur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92EC3B3B162CCA4800D27B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EC3B4C162CCA4800D27B62 /* InfoPlist.strings in Resources */,
+				92EC3B54162CCA4800D27B62 /* Default.png in Resources */,
+				92EC3B56162CCA4800D27B62 /* Default@2x.png in Resources */,
+				92EC3B58162CCA4800D27B62 /* Default-568h@2x.png in Resources */,
+				92EC3B5E162CCA4900D27B62 /* LCMViewController_iPhone.xib in Resources */,
+				92EC3B61162CCA4900D27B62 /* LCMViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92EC3B39162CCA4800D27B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92EC3B4E162CCA4800D27B62 /* main.m in Sources */,
+				92EC3B52162CCA4800D27B62 /* LCMAppDelegate.m in Sources */,
+				92EC3B5B162CCA4800D27B62 /* LCMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92EC3B4A162CCA4800D27B62 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92EC3B4B162CCA4800D27B62 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		92EC3B5C162CCA4900D27B62 /* LCMViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92EC3B5D162CCA4900D27B62 /* en */,
+			);
+			name = LCMViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		92EC3B5F162CCA4900D27B62 /* LCMViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92EC3B60162CCA4900D27B62 /* en */,
+			);
+			name = LCMViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92EC3B62162CCA4900D27B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92EC3B63162CCA4900D27B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92EC3B65162CCA4900D27B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Licimur/Licimur-Prefix.pch";
+				INFOPLIST_FILE = "Licimur/Licimur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		92EC3B66162CCA4900D27B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Licimur/Licimur-Prefix.pch";
+				INFOPLIST_FILE = "Licimur/Licimur-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92EC3B37162CCA4800D27B62 /* Build configuration list for PBXProject "Licimur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EC3B62162CCA4900D27B62 /* Debug */,
+				92EC3B63162CCA4900D27B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92EC3B64162CCA4900D27B62 /* Build configuration list for PBXNativeTarget "Licimur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92EC3B65162CCA4900D27B62 /* Debug */,
+				92EC3B66162CCA4900D27B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92EC3B34162CCA4800D27B62 /* Project object */;
+}
